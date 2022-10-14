@@ -131,6 +131,10 @@ left: 20px;
     align-items: flex-start;
     justify-content: center;
 }
+#hero h4{
+    padding-bottom: 15px;
+}
+
 
 
 
