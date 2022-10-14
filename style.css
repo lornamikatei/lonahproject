@@ -137,7 +137,13 @@ left: 20px;
 #hero h1{
     color: #088178;
 }
-
+#hero{
+    background-image: url("img/button.pgn");
+    background-color: transparent;
+    color: #088178;
+    border: 0;
+    padding: 10px;
+}
 
 
 
