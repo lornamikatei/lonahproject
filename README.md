@@ -5,15 +5,13 @@ Lorna : 3/11/2022
 # project-gerald-pkr1 is based on reseach to improve the rains in kajiado county
 FOREST CONSERVATION
 //MY SREENSHOT
-![image](https://user-images.githubusercontent.com/111950276/199224281-87edceae-eef6-463f-97a3-3a6f72eff0f9.png)
-
+![image](https://user-images.githubusercontent.com/112079061/199703466-1ddd7283-c9f1-4238-b040-cdda9935f30c.png)
 forests promote resilience since they can offer safety nets for livelihoods and are usually consumed more frequently when food is scarce. When they are sold, forest and tree products can help the world's food system become more nutrient-sensitive. minimizing water and air pollution. preserving open spaces and natural areas. conserving biodiversity, endangered species, and habitats for fish and animals. managing and defending wetlands and watersheds. maintaining leisure facilities and beautiful environments.
 CONTACT:
 Email: kapgeado05@gmail.com
 
 # LOCATION:
-![image](https://user-images.githubusercontent.com/111950276/199225906-44d3da81-aa44-4111-bb53-b98256f3d623.png)
-
+![image](https://user-images.githubusercontent.com/112079061/199703674-86c5d634-f363-4369-b09c-a216654889d6.png)
 # Cheap Boutique in Kajiado
 Slip away to a boutique hotel that is both unique and charming but also has a low nightly rate on your next vacation to Kajiado. 67 Airport Hotel, PrideInn Hotel Westlands, and Hotel Kipepeo are a few we think you will like if you want style and comfort during your Kajiado stay, but you don’t want to pay premium prices. After all, the point of a vacation is to get out and take in the sights, sounds, and culture of Kajiado, not hide in your room.
 MY PROJECT IS LIVE AT: https://lornamikatei.github.io/lonahproject/
@@ -31,6 +29,9 @@ Technologies Used
 
 TOPICS:
 La Boutique
+
+![image](https://user-images.githubusercontent.com/112079061/199703931-92ad30a8-e273-4149-a9ce-a4dce9ea7802.png)
+
 
 
 MIT License
