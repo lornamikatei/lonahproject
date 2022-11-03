@@ -2,13 +2,11 @@
 # Author :date
 Lorna : 3/11/2022
 
-# project-gerald-pkr1 is based on reseach to improve the rains in kajiado county
-FOREST CONSERVATION
-//MY SREENSHOT
+# MY SREENSHOT
 ![image](https://user-images.githubusercontent.com/112079061/199703466-1ddd7283-c9f1-4238-b040-cdda9935f30c.png)
 forests promote resilience since they can offer safety nets for livelihoods and are usually consumed more frequently when food is scarce. When they are sold, forest and tree products can help the world's food system become more nutrient-sensitive. minimizing water and air pollution. preserving open spaces and natural areas. conserving biodiversity, endangered species, and habitats for fish and animals. managing and defending wetlands and watersheds. maintaining leisure facilities and beautiful environments.
 CONTACT:
-Email: kapgeado05@gmail.com
+Email: lornahm93@gmail.com
 
 # LOCATION:
 ![image](https://user-images.githubusercontent.com/112079061/199703674-86c5d634-f363-4369-b09c-a216654889d6.png)
