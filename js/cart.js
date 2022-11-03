@@ -24,7 +24,7 @@ export function addToCart(productId, qtyValue) {
 
 function showModal(productName, qty) {
     cartModal.classList.add('show');
-    cartModal.innerHTML = `Hai aggiunto <b>${qty}</b> ${productName} al Carrello!`;
+    cartModal.innerHTML = `You added <b>${qty}</b> ${productName} to cart!`;
     setTimeout(() => {
         cartModal.classList.remove('show')
     }, 3000)
@@ -32,7 +32,7 @@ function showModal(productName, qty) {
 
 function cartRender() {
     if (cartList.length === 0) {
-        domCartList.innerHTML = `<p>il tuo carrello è vuoto</p>`;
+        domCartList.innerHTML = `<p>Your shopping cart is empty</p>`;
         cartBtn.className = 'cart-empty';
     } else {
         const totalProducts = cartList.reduce((a, b) => a + b.qty, 0);
@@ -82,7 +82,7 @@ function cartRender() {
         })
         const cartTotal = document.createElement('div');
         cartTotal.className = 'cart-total';
-        cartTotal.textContent = `Totale Carrello: ${totalPrice} $`;
+        cartTotal.textContent = `Cart Total: ${totalPrice} $`;
         domCartList.appendChild(cartTotal);
         window.localStorage.setItem('cart', JSON.stringify(cartList));
     }
