@@ -1,79 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boutique</title>
-    <link rel="stylesheet" href=
-    "https://pro.fontawesome.com/releases/vs.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cvb3zcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvkxvELGroGkvsg+p" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <section id="header">
-        </section>
-        <section id="hero">
-            <h4>Trade-in-offer</h4>
-            <h2>Super value deals</h2>
-            <h1>On all products</h1>
-            <p>save more with coupons $ up to 78% off</p>
-            <button>shop Now</button>
-
-        </section>
-
-        <section id="page-header">
-        </section>
-
-        <section id="product1" class="section-p1">
-        </section>
-        <section id="pagination" class="section-p1">
-            <a href="#".>1</a>
-            <a href="#">2</a>
-            <a href="#"><i class="fal fa-long-arrow=alt-right"></i></a>
-        </section>
-        
-        <section id="newsletter" class="section-p1 section-m1">
-        </section>
-        <footer class="section-p1">
-        </footer>
-    <a href="#"><ing src="ing/logo.png"class="logo"alt=""></a>
-        <div>
-            <ul id="navbar">
-                <li><a class="active" href="index.html">Home</a></li>
-                 <li><a href="shop.html">Shop</a></li>
-                 <li><a href="blog.html">Blog</a>/li>
-                  <li><a href="about.html">About</a>/li>    
-                 <li><a href="contact.html">Contact</a>/li>
-                 <li><a href="cart.html"><i class="far fa-shopping-bag"></i>/a>/li>       
-            </ul>
-        </div id='jed'>
-    </section>
-    <section id="hero">
-    </section>
-
-    <section id="feature" class="section-p1">
-        <h2>Featured Product</h2>
-        <p>Summer collection New Mordern Design</p>
-        <div class="pro-container">
-            <div class="pro">
-<img src="img/products/Lijpg" alt="">
-<div class="des">
-    <span>adidas</span>
-    <h5>Catoon Astronut T-shirts</h5>
-    <div class="star">
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa- star"></i>
-        <i class="fas fa-star"></i>
-        <i class="fas fa-star"></i>
-    </div>
-    <h4>$78</h4>
-</div>
-<a href="#"></i class="fal fa-shopping-cart"></a>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Boutique</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo"><a href="#home">LaBoutique</a></div>
+      <div class="menu">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#catalog">Catalog</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="dx-elements">
+        <button id="cart" class="cart-empty"></button>
+        <div class="cart-list">
+          <p>il tuo carrello è vuoto</p>
         </div>
-    </section>
-
-    <script src="script.js"></script>
-</body>
+        <button class="hamburger"></button>
+      </div>
+    </header>
+    <div class="wrapper">
+      <div id="home" class="__hero">
+      </div>
+      <div id="catalog"></div>
+      <div class="wrapper__titles">
+        <h2>CATALOG</h2>
+      </div>
+      <div class="wrapper__filters">
+        <div class="wrapper__search">
+          <input type="text" class="search_input" autocomplete="off" placeholder="search">
+          <button class="search_btn">x</button>
+        </div>
+        <div class="wrapper_sort">
+          <select class="sort_select">
+            <option value="default">Default</option>
+            <option value="az">Name: A - Z</option>
+            <option value="za">Name: Z - A</option>
+            <option value="paz">Price: A - Z</option>
+            <option value="pza">Price: Z - A</option>
+          </select>
+        </div>
+      </div>
+      <div class="wrapper__products">
+        <div class="loading"><img src="https://img.icons8.com/material-sharp/452/loading-sign.png" alt="loading-icon">Waiting for API request...</div>
+      </div>
+      
+    </div>
+    <div class="parallax">
+      <div class="parallax__text">IL MONDO DELLA MODA</div>
+    </div>
+    
+    <div id="testimonials"></div>
+      <div class="wrapper__titles">
+        <h2>TESTIMONIALS</h2>
+      </div>
+      <div class="wrapper_testimonials">
+        <div class="loading"><img src="https://img.icons8.com/material-sharp/452/loading-sign.png" alt="loading-icon">Waiting for API request...</div>
+      </div>
+    
+    <div id="contact"></div>
+    <div class="wrapper_contacts">
+      <div class="wrapper__titles">
+        <h2>CONTACT</h2>
+      </div>
+      <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" placeholder="name" name="name" autocomplete="off" required>
+        <label for="subject">Subject:</label>
+        <input type="text" placeholder="subject" name="subject" autocomplete="off" required>
+        <label for="message">Message:</label>
+        <textarea name="message" placeholder="message" required></textarea>
+        <button type="submit" class="button">Send</button>
+      </form>
+    </div>
+    <footer>
+      <p>Realizzazione Giuseppe Senettone</p>
+    </footer>
+    <div class="cart-modal"></div>
+    <div class="contact-modal">
+      <div class="loading"><img src="https://img.icons8.com/material-sharp/452/loading-sign.png" alt="loading-icon">Fake Sending Message...</div>
+    </div>
+    <script src="./js/script.js" type="module"></script>
+  </body>
 </html>
