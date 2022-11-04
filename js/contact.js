@@ -12,4 +12,3 @@ export function contactFunction() {
 
 const form = document.querySelector('#contact-form');
 const modal = document.querySelector('.contact-modal');
-
