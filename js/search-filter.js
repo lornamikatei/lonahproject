@@ -51,4 +51,3 @@ export function searchFunc(data) {
 const input = document.querySelector('.search_input')
 const searchBtn = document.querySelector('.search_btn');
 const sortSelect = document.querySelector('.sort_select');
-
