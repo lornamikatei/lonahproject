@@ -36,5 +36,3 @@ function testimonialsRender(data) {
 
 const wrapperTestimonials = document.querySelector('.wrapper_testimonials');
 let leftScroll = 0;
-
-
